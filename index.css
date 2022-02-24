@@ -1,0 +1,458 @@
+
+body{
+  margin:0;
+  }
+#back{
+   background-image:url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:100vh;
+  width:100%;
+  background-position:center;
+  margin:auto;
+} 
+nav{
+  display:flex;
+  justify-content:space-between;
+}
+#top-bar{
+  background-color:white;
+  width:100%;
+  height:70px;
+  box-border:1px solid white; 
+  box-sizing:border-box;
+  padding-top:0px;
+  padding-left:8px;
+  padding-right:8px;
+  margin-left:8px;
+  padding-right:8px;
+  position:fixed;
+ margin:0;
+}
+#left-menu{
+  align-items:center;
+}
+#right-menu{
+  display:flex;
+  align-items:center;
+}
+#logo{
+  font-size:24px;
+  font-weight:900;
+}
+.menu-items{
+  font-family:'Poppins',sans-serif;
+  color:black;
+  font-size:14px;
+  font-thickness:600;
+  padding:8px;
+}
+button{
+  font-family:'Poppins',sans-serif;
+  text-transform:uppercase;
+  background-color:rgb(170,210,54);
+ font-size:12px;
+  font-thickness:600;
+  padding:9px 34px;
+  color:white;
+  border:1px solid rgb(170,210,54);
+  border-radius:4px;
+  outline:none;
+}
+#dropdown{
+  width:140px;
+  padding:8px;
+  position:absolute;
+  right:300px;
+  font-family:'Poppins',sans-serif;
+  border-top:2px solid rgb(170,210,54);
+  background-color:white;
+  shadow:0 2px 5px #ccc;
+  display:none;
+  
+}
+#dropdown-wrapper:hover #dropdown{
+  display:block;
+}
+#back > h1{
+  text-align:center;
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform:translatex(-50%);
+  }
+#back > p{
+  font-size:32px;
+   text-align:center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translatex(-50%);}
+  
+h1{
+  font-family:'Poppins',sans-serif;
+  font-size:44px;
+  font-thickess:600;
+  letter-spacing:8.8px;
+  line-height:1.2;
+}
+p{
+  font-family:'Poppins',sans-serif;
+  font-size:14px;
+  font-thickess:400;
+  letter-spacing:0.5px;
+  color:#8b8b99;  
+}
+#ground {
+  text-align:center;
+  color:white;
+  display:grid;
+  grid-template-areas:'stepone steptwo stepthree stepfour';
+}
+#ground  i{
+  icon-width:96px;
+   transition-duration:300ms;
+  transition:1s ease-in-out; 
+}
+#ground :hover>i{
+  transform: scale(1.1);
+}
+#one{
+  background-color:#5acda6;
+  grid-area:stepone;
+  height:auto;
+}
+.icon{
+  font-size:96px;
+  padding:16px;
+}
+#two{
+  background-color:#91ac41; 
+  grid-area:steptwo;
+  height:auto;
+}
+#three{
+  background-color:#e4b476;
+  grid-area:stepthree;
+  height:auto;
+}
+#four{
+  background-color:#f69dad; 
+  grid-area:stepfour;
+  height:auto;
+}
+.head{
+  font-family:'Poppins',sans-serif;
+  text-align:center;
+  color:white;
+  font-size:24px;
+  font-thickness:600;
+  }
+.para{
+  font-family:'Poppins',sans-serif;
+ text-align:center;
+  color:white;
+  font-size:14px;
+  letter-spacing:0.5px;
+  line-height:1.6;
+}
+#color{
+  background-color:#f7eee2; 
+  height:auto;
+  text-align:center;
+  padding:24px 24px; 
+  }
+.text{
+  color:#91ac41;
+  font-size:24px;
+  font-family:'caveat', cursive;
+  margin:0;
+  margin-top:35px;
+ 
+}
+.store{
+  font-family:'Poppins',sans-serif;
+  font-size:44px;
+  font-thickess:600;
+}
+.graph{
+  font-family:'Poppins',sans-serif;
+  font-size:16px;
+  font-thickess:500;
+  color:#8b8b99; 
+  letter-spacing:0.5px;
+}
+
+.pic{
+  text-align:center;
+  font-family:'Poppins',sans-serif;
+  font-size:24px;
+  font-thickess:600;
+}
+.dad{
+  font-family:'Poppins',sans-serif;
+  font-size:16px;
+  font-thickess:500;
+  color:#8b8b99; 
+  letter-spacing:0.5px;
+}
+#swan1 i {
+  background-color:#e3b375;
+  color:white;
+  font-size:30px;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-radius:100%;
+}
+#swan2 i {
+  background-color:#e3b375;
+  color:white;
+  font-size:30px;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-radius:100%;}
+#swan3 i {
+  background-color:#e3b375;
+  color:white;
+  font-size:30px;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-radius:100%;
+}
+#swan4 i {
+  background-color:#e3b375;
+  color:white;
+  font-size:30px;
+  width:80px;
+  height:80px;
+  line-height:80px;
+  border-radius:100%;
+}
+
+#total{
+  display:grid;
+  grid-template-areas:'camera rocket twitter weixein';
+  
+}
+#swan1{
+  grid-area:camera;
+  padding:8px;
+}
+#swan2{
+  grid-area:rocket;
+  padding:8px;
+}
+#swan3{
+  grid-area:twitter;
+  padding:8px;
+}
+#swan4{
+  grid-area:weixein;
+  padding:8px;
+}
+#swa i {
+  text-align:center;
+  transition-duration:300ms;
+  transition:1s ease-in-out;
+    
+}
+#swa:hover > i{
+  transform:scale(1.1);
+}
+#vegan-store{
+  text-align:center;
+  padding:16px 16px;
+}
+#wrapper{
+  text-align:center;
+  display:grid;
+  grid-template-areas:'pp vv bb';
+  column-gap:16px;
+   }
+#area1{
+  grid-area:pp
+}
+#area2{
+  grid-area:vv
+}
+#area3{
+  grid-area:bb
+}
+.sun{
+  background-color:#f5f6fb; 
+  height:auto;
+  border-radius:45px 0 45px 45px;
+  padding:16px 16px; 
+}
+.organ{
+  width:80px;
+  border-radius:50%;
+}
+.msg{
+  text-align:center;
+  font-family:'Poppins',sans-serif;
+  font-size:14px;
+  letter-spacing:0.5px;
+  color:#8b8b99; 
+  font-style:italic;
+}
+.author{
+  text-align:center;
+  font-family:'Poppins',sans-serif;
+  font-size:16px;
+  font-thickess:600;
+}
+.aut{
+  text-align:center;
+  font-family:'Poppins',sans-serif;
+  font-size:12px;
+  color:#8b8b99; 
+  font-style:italic;
+}
+#berry{
+ background-image:url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:auto;
+  width:40vw;
+  display:inline-block;
+  background-position:left;
+}
+#straw{
+  width:60vw;
+  height:auto;
+}
+#str{
+  display:inline-block;
+  background-position:right;
+}
+#blur{
+  display:flex;
+  justify-content:stretch;
+  }
+.video{
+  width:90vw;
+  text-align:center;
+}
+.in{
+  background-color:white;
+  font-size:16px;
+  font-thickness:500;
+  border:1px solid white;
+  border-radius:4px;
+  outline:none;
+  margin:16px;
+}
+#scribe{
+  background-color:#f69dad; 
+  margin:16px;
+  border:none;
+  border-radius:2px;
+  font-size:16px;
+  font-thickness:500;
+  outline:none;
+}
+#scribe:hover{
+ border:1px solid #f69dad;
+ background:white;
+  color:#f69dad; 
+}
+.foll{
+margin:24px;
+}
+#numbers{
+  background-color:#F0FFF0;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  
+
+}
+.exp{
+  font-family:'Poppins',sans-serif;
+  font-size:44px;
+  font-thickess:600;
+  text-align:center;
+}
+.num{
+  text-align:center;
+  font-family:'Poppins',sans-serif;
+  font-size:16px;
+  font-thickess:500;
+  color:#00FF7F;
+  letter-spacing:0.5px;
+}
+.vid{
+  font-family:'Poppins',sans-serif;
+  font-size:44px;
+  font-thickess:600;
+  text-align:center;
+}
+hr{
+  color:#FF7F50;
+  width:10%;
+}
+iframe{
+  margin:24px;
+}
+.sunitha{
+  font-family:'Poppins',sans-serif;
+  font-size:44px;
+  font-thickess:600;
+}
+.muru{
+  font-family:'Poppins',sans-serif;
+  font-size:14px;
+  letter-spacing:0.5px;
+  line-height:1.6;
+}
+#inf{
+  display:flex;
+  justify-content:stretch;
+  padding-left:50px;
+  margin:24px;
+}
+#details{
+  width:50%;
+  height:auto;
+  display:inline-block;
+  background-posiion:left;
+}
+#about{
+  width:50%;
+  height:auto;
+  display:inline-block;
+  background-posiion:right;
+}
+.thor{
+  
+  font-family:'Poppins',sans-serif;
+  font-size:16px;
+  font-thickness:600;
+}
+.nam{
+  font-family:'Poppins',sans-serif;
+  font-size:32px;
+  font-thickness:600;
+  padding:16px;
+  border:1px solid #778899;
+  border-radius:8px;
+  outline:none;
+  box-size:border-box;
+}
+footer{
+  background-color:#232323;
+  height:auto;
+  color:white;
+  padding:16px;
+  text-align:center;
+    }
+@media only screen and (max-width:620px){
+  
+}
+
+  
